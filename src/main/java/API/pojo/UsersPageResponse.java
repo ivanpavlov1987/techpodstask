@@ -42,7 +42,7 @@ public class UsersPageResponse {
         this.totalPages = totalPages;
     }
 
-    private class Data extends UserDetailsRequest {
+    public class Data extends UserDetailsRequest {
         private int id;
 
         public int getId() {
