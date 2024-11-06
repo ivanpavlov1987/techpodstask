@@ -3,9 +3,9 @@
 <suite name="Test Set 1">
     <test name="test 1">
         <parameter name="deviceName" value="myDevice"/>
-        <parameter name="udid" value="6797c734"/>
+        <parameter name="udid" value="emulator-5554"/>
         <classes>
-            <class name="UI.tests.LoginTests"/>
+            <class name="UI.tests.UITests"/>
         </classes>
     </test>
 </suite>

@@ -13,7 +13,7 @@ import java.util.List;
 
 public class APITests {
 
-    private String url = "https://reqres.in/api/users/";
+    private final static String url = "https://reqres.in/api/users/";
     private static int createdUserId;
 
     @Test
